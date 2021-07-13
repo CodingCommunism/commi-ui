@@ -1,12 +1,14 @@
-import { computed, defineComponent, PropType } from 'vue'
+<template>
+  <button :class="classList" @click="handleClick">
+    <slot></slot>
+  </button>
+</template>
+
+<script lang="ts">
+import { computed, defineComponent, PropType } from 'vue';
 
 export default defineComponent({
   name: 'CButton',
-  template: `
-    <button :class="classList" @click="handleClick">
-      <slot></slot>
-    </button>
-  `,
   props: {
     disabled: {
       type: Boolean,
@@ -44,3 +46,4 @@ export default defineComponent({
     }
   },
 });
+</script>
