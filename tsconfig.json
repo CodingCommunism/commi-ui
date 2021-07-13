@@ -13,10 +13,13 @@
     "lib": [
       "ESNext", "DOM"
     ],
-    "allowSyntheticDefaultImports": true
+    "allowSyntheticDefaultImports": true,
+    "noEmitOnError": true,
+    "outDir": "dist/types"
   },
   "exclude": [
-    "node_modules"
+    "node_modules",
+    "examples"
   ]
  }
  
