@@ -1,4 +1,7 @@
 import { createApp } from 'vue'
 import App from './App.vue'
+import commiUI from '../../components/index'
 
-createApp(App).mount('#app')
+const app = createApp(App)
+// app.use(commiUI)
+app.mount('#app')

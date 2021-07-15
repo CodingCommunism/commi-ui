@@ -1,3 +1,3 @@
-import configs from "./build/configs"
+import configs from './build/configs'
 
-export default configs;
+export default configs

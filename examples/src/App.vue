@@ -1,5 +1,6 @@
 <template>
   <div>Hello!</div>
+  <c-button>1234</c-button>
 </template>
 
 <script lang="ts">
