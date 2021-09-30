@@ -1,6 +1,12 @@
 <template>
-  <div>Hello!</div>
-  <c-button>1234</c-button>
+  <c-header>
+    <template #icon>
+      COMMI-UI
+    </template>
+    <router-link to="/">首页 </router-link>
+    <router-link to="/components">组件</router-link>
+  </c-header>
+  <router-view />
 </template>
 
 <script lang="ts">
@@ -10,3 +16,6 @@ export default defineComponent({
   name: 'App',
 })
 </script>
+
+<style>
+</style>
